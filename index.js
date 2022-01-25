@@ -7,5 +7,5 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 80
 app.listen(port, () => {
-  console.log('服务启动成功，端口：', port)
+  console.log('服务启动成功，端口：80', port)
 })
